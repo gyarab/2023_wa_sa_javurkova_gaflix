@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import film
 
-# Register your models here.
+class FilmAdmin(admin.ModelAdmin):
+    list_display = ('title', 'year')
+
+admin.site.register(film, FilmAdmin)
