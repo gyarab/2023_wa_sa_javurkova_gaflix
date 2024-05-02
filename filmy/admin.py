@@ -1,10 +1,23 @@
 from django.contrib import admin
-from .models import film
+from .models import Movie, Actor, Director, Genre
 
-# abych nezapomnela: superuser 'admin' 'unipasswd'
-
-class FilmAdmin(admin.ModelAdmin):
-    # list_display = ('title', 'year')
+class MovieAdmin(admin.ModelAdmin):
     pass
 
-admin.site.register(film, FilmAdmin)
+
+class ActorAdmin(admin.ModelAdmin):
+    pass
+
+
+class DirectorAdmin(admin.ModelAdmin):
+    pass
+
+
+class GenreAdmin(admin.ModelAdmin):
+    pass
+
+
+admin.site.register(Movie, MovieAdmin)
+admin.site.register(Actor, ActorAdmin)
+admin.site.register(Director, DirectorAdmin)
+admin.site.register(Genre, GenreAdmin)
