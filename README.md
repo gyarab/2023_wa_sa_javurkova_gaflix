@@ -52,3 +52,9 @@ python manage.py migrate
 # Nahrani dat ze vsech json souboru
 python manage.py loaddata fixtures/*.json
 ```
+
+## Jestli nastane problem s ceskymi znaky
+```
+export PYTHONIOENCODING=utf-8
+# Prikaz dumpadata znova..
+```
