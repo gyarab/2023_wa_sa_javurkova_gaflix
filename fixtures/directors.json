@@ -1,0 +1,12 @@
+[
+{
+  "model": "filmy.director",
+  "pk": 1,
+  "fields": {
+    "name": "Christopher Nolan",
+    "birth_year": 1970,
+    "main_picture": "",
+    "description": "Inteligentni felacek"
+  }
+}
+]

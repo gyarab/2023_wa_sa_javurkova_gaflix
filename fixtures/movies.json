@@ -1,0 +1,24 @@
+[
+{
+  "model": "filmy.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Inception",
+    "year": 2010,
+    "footage": 148,
+    "main_picture": "",
+    "description": "Uzasny, zivot-menici film od rezisera Christophera Nolana"
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 2,
+  "fields": {
+    "name": "Pride & Prejudice",
+    "year": 2005,
+    "footage": 127,
+    "main_picture": "",
+    "description": "The movie!!!!!!!!!"
+  }
+}
+]

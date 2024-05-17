@@ -1,0 +1,12 @@
+[
+{
+  "model": "filmy.actor",
+  "pk": 1,
+  "fields": {
+    "name": "Daisy Edgar-Jones",
+    "birth_year": 1998,
+    "main_picture": "",
+    "description": "Idk"
+  }
+}
+]
