@@ -6,7 +6,97 @@
     "name": "Daisy Edgar-Jones",
     "birth_year": 1998,
     "main_picture": "",
-    "description": "Idk"
+    "description": "Born in 1998 and raised in London, Daisy trained with the National Youth Theatre before landing her first professional job at 17, playing the regular role of Olivia in the returning British series Cold Feet alongside James Nesbitt and Hermione Norris for ITV."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 2,
+  "fields": {
+    "name": "Timothée Chalamet",
+    "birth_year": 1995,
+    "main_picture": "",
+    "description": "Timothée Hal Chalamet (English: /ˈtɪməθi ˈʃæləmeɪ/ TIM-əth-ee SHAL-ə-may; born December 27, 1995) is an American and French actor. He has received various accolades, including nominations for an Academy Award, three Golden Globe Awards, and three BAFTA Film Awards. New York City, U.S."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 3,
+  "fields": {
+    "name": "Keira Knightley",
+    "birth_year": 1985,
+    "main_picture": "",
+    "description": "Keira Christina Knightley OBE (/ˈkɪərə ˈnaɪtli/; born 26 March 1985) is an English actress. Known for her work in independent films and blockbusters, particularly period dramas, she has received numerous accolades, including nominations for two Academy Awards, three BAFTAs, three Golden Globes, and a Laurence Olivier Award. In 2018, she was appointed an OBE at Buckingham Palace for services to drama and charity."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 4,
+  "fields": {
+    "name": "Natalie Portman",
+    "birth_year": 1981,
+    "main_picture": "",
+    "description": "Natalie Portman (born June 9, 1981, Jerusalem) is an Israeli American actress known for the aristocratic poise and nuance with which she evinced the struggles of complex precocious women. In 2011, she won an Academy Award for her performance in Black Swan (2010)."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 5,
+  "fields": {
+    "name": "Ethan Hawke",
+    "birth_year": 1970,
+    "main_picture": "",
+    "description": "Ethan Green Hawke (born November 6, 1970) is an American actor, author and film director. He made his film debut in Explorers (1985), before making a breakthrough performance in Dead Poets Society (1989). Hawke starred alongside Julie Delpy in Richard Linklater's Before trilogy from 1995 to 2013."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 6,
+  "fields": {
+    "name": "Julie Delpy",
+    "birth_year": 1969,
+    "main_picture": "",
+    "description": "Julie Delpy was born in Paris, France, in 1969 to Albert Delpy and Marie Pillet, both actors. She was first featured in Jean-Luc Godard's Detective (1985) at the age of fourteen. She has starred in many American and European productions since then, including Disney's."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 7,
+  "fields": {
+    "name": "Robin Williams",
+    "birth_year": 1951,
+    "main_picture": "",
+    "description": "Robin McLaurin Williams (July 21, 1951 – August 11, 2014) was an American actor and comedian. Known for his improvisational skills and the wide variety of characters he created on the spur of the moment and portrayed on film, in dramas and comedies alike, he is regarded as one of the greatest comedians of all time."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 8,
+  "fields": {
+    "name": "Leonardo DiCaprio",
+    "birth_year": 1974,
+    "main_picture": "",
+    "description": "Leonardo Wilhelm DiCaprio (/diˈkæprioʊ, dɪ-/; Italian: [diˈkaːprjo]; born November 11, 1974) is an American actor and film producer. Known for his work in biographical and period films, he is the recipient of numerous accolades, including an Academy Award, a British Academy Film Award, and three Golden Globe Awards."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 9,
+  "fields": {
+    "name": "Cillian Murphy",
+    "birth_year": 1976,
+    "main_picture": "",
+    "description": "Cillian Murphy is an Irish film and theatre actor. He is often noted by critics for his chameleonic performances in diverse roles and distinctive blue eyes. A native of Cork, Murphy began his performing career as a rock musician."
+  }
+},
+{
+  "model": "filmy.actor",
+  "pk": 10,
+  "fields": {
+    "name": "Rachel McAdams",
+    "birth_year": 1978,
+    "main_picture": "",
+    "description": "Rachel Anne McAdams (born November 17, 1978)[2][1] is a Canadian actress. After graduating from a theatre degree program at York University in 2001, she worked in Canadian television and film productions, such as the drama film Perfect Pie (2002), for which she received a Genie Award nomination, the comedy film My Name Is Tanino (2002), and the comedy series Slings & Arrows (2003–2005), for which she won a Gemini Award."
   }
 }
 ]

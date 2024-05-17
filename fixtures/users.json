@@ -4,15 +4,15 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$720000$XaKUAUXj3ce0OMii50t58o$Yd1HCHZSdI5rdCxy1e6kjpDh6g4jpUm3a/olxrKQZ9Y=",
-    "last_login": "2024-05-17T08:10:53.484Z",
+    "last_login": "2024-05-17T08:10:53Z",
     "is_superuser": true,
-    "username": "superuser",
+    "username": "admin",
     "first_name": "",
     "last_name": "",
     "email": "",
     "is_staff": true,
     "is_active": true,
-    "date_joined": "2024-05-02T18:57:54.161Z",
+    "date_joined": "2024-05-02T18:57:54Z",
     "groups": [],
     "user_permissions": []
   }

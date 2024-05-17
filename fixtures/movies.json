@@ -7,18 +7,117 @@
     "year": 2010,
     "footage": 148,
     "main_picture": "",
-    "description": "Uzasny, zivot-menici film od rezisera Christophera Nolana"
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
   }
 },
 {
   "model": "filmy.movie",
-  "pk": 2,
+  "pk": 3,
   "fields": {
-    "name": "Pride & Prejudice",
-    "year": 2005,
-    "footage": 127,
+    "name": "The Notebook",
+    "year": 2004,
+    "footage": 121,
     "main_picture": "",
-    "description": "The movie!!!!!!!!!"
+    "description": "An elderly man reads to a woman with dementia the story of two young lovers whose romance is threatened by the difference in their respective social classes."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 4,
+  "fields": {
+    "name": "Interstellar",
+    "year": 2014,
+    "footage": 169,
+    "main_picture": "",
+    "description": "Set in a dystopian future where humanity is embroiled in a catastrophic blight and famine, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for humankind."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 5,
+  "fields": {
+    "name": "Truman Show",
+    "year": 1998,
+    "footage": 163,
+    "main_picture": "",
+    "description": "Selected from birth and officially adopted by a television studio following an unwanted pregnancy, Truman Burbank is the unsuspecting star of The Truman Show, a reality television program filmed 24/7 through approximately five thousand hidden cameras and broadcast worldwide."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 6,
+  "fields": {
+    "name": "Black Swan",
+    "year": 2010,
+    "footage": 168,
+    "main_picture": "",
+    "description": "The movie follows the story of Nina (Portman), a ballerina in a New York City ballet company whose life, like all those in her profession, is completely consumed with dance."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 7,
+  "fields": {
+    "name": "Before Sunrise",
+    "year": 1995,
+    "footage": 165,
+    "main_picture": "",
+    "description": "The story begins with Jesse (Ethan Hawke), an American traveling through Europe, and Celine (Julie Delpy), a French student on her way back to Paris. Their fateful encounter occurs on a train, and what starts as a casual conversation swiftly evolves into a compelling exploration of life, love, and human connection."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 8,
+  "fields": {
+    "name": "Call Me by Your Name",
+    "year": 2017,
+    "footage": 130,
+    "main_picture": "",
+    "description": "Set in 1983 in northern Italy, Call Me by Your Name chronicles the romantic relationship between a 17-year-old, Elio Perlman (Timothée Chalamet), and Oliver (Armie Hammer), a 24-year-old graduate-student assistant to Elio's father Samuel (Michael Stuhlbarg), an archaeology professor."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 9,
+  "fields": {
+    "name": "Split",
+    "year": 2017,
+    "footage": 117,
+    "main_picture": "",
+    "description": "The film follows a man with dissociative identity disorder who kidnaps and imprisons three teenage girls in an isolated underground facility."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 10,
+  "fields": {
+    "name": "Good Will Hunting",
+    "year": 1997,
+    "footage": 126,
+    "main_picture": "",
+    "description": "In GOOD WILL HUNTING, Will (Matt Damon), who grew up as an abused foster child in tough South Boston, works as a janitor at MIT. When he solves complicated math problems that stumped the students, a professor searches for him, only to find that he's in jail for hitting a policeman."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 11,
+  "fields": {
+    "name": "Dead Poets Society",
+    "year": 1989,
+    "footage": 128,
+    "main_picture": "",
+    "description": "Dead Poets Society is a 1989 American coming-of-age drama film directed by Peter Weir and written by Tom Schulman. The film, starring Robin Williams, is set in 1959 at the fictional elite boarding school, Welton Academy, and tells the story of an English teacher who inspires his students through his teaching of poetry."
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 12,
+  "fields": {
+    "name": "The Great Gatsby",
+    "year": 2013,
+    "footage": 143,
+    "main_picture": "",
+    "description": "Synopsis Midwest native Nick Carraway (Tobey Maguire) arrives in 1922 New York in search of the American dream. Nick, a would-be writer, moves in next-door to millionaire Jay Gatsby (Leonardo DiCaprio) and across the bay from his cousin Daisy (Carey Mulligan) and her philandering husband, Tom (Joel Edgerton)."
   }
 }
 ]

@@ -6,7 +6,77 @@
     "name": "Christopher Nolan",
     "birth_year": 1970,
     "main_picture": "",
-    "description": "Inteligentni felacek"
+    "description": "Christopher Nolan is a British film director and writer acclaimed for his noirish visual aesthetic and unconventional, often highly conceptual narratives. His notable films include Inception (2010), Interstellar (2014), Dunkirk (2017), and several Batman movies."
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 2,
+  "fields": {
+    "name": "Richard Linklater",
+    "birth_year": 1960,
+    "main_picture": "",
+    "description": "Richard Stuart Linklater (/ˈlɪŋkleɪtər/; born July 30, 1960) is an American film director, producer, and screenwriter. He is known for making films that deal thematically with suburban culture and the effects of the passage of time."
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 3,
+  "fields": {
+    "name": "Darren Aronofsky",
+    "birth_year": 1969,
+    "main_picture": "",
+    "description": "Darren Aronofsky (born February 12, 1969) is an American filmmaker. His films are noted for their surreal, melodramatic, and often disturbing elements, frequently in the form of psychological fiction."
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 4,
+  "fields": {
+    "name": "Peter Weir",
+    "birth_year": 1944,
+    "main_picture": "",
+    "description": "Peter Weir is an Australian film director and screenwriter known for intelligent emotional dramas that frequently explore the relationship between characters and their social environment."
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 5,
+  "fields": {
+    "name": "Joe Wright",
+    "birth_year": 1972,
+    "main_picture": "",
+    "description": "Joe Wright is an English film director. He is best known for Pride & Prejudice (2005), Atonement (2007), Anna Karenina (2012), and Darkest Hour (2017). Wright always had an interest in the arts, especially painting."
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 7,
+  "fields": {
+    "name": "Luca Guadagnino",
+    "birth_year": 1971,
+    "main_picture": "",
+    "description": "Luca Guadagnino (Italian: [ˈluːka ɡwadaɲˈɲiːno]) is an Italian film director and producer. His films are characterized by their emotional complexity, eroticism, and sumptuous visuals."
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 8,
+  "fields": {
+    "name": "Nick Cassavetes",
+    "birth_year": 1959,
+    "main_picture": "",
+    "description": "Nicholas David Rowland Cassavetes (born May 21, 1959) is an American actor, director, and writer. He has directed such films as She's So Lovely (1997), John Q. (2002), The Notebook (2004), Alpha Dog (2006), and My Sister's Keeper (2009)."
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 9,
+  "fields": {
+    "name": "Greta Gerwig",
+    "birth_year": 1983,
+    "main_picture": "",
+    "description": "Recent News. Greta Gerwig is an American actress, writer, and director who became known for the radiant artlessness of her performances in small independent movies before embarking on a successful career as a filmmaker."
   }
 }
 ]
