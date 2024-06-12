@@ -6,7 +6,7 @@
     "name": "Inception",
     "year": 2010,
     "footage": 148,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/posters/158/602/158602381_7e79a6.jpg",
     "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
     "director": 1,
     "actors": [
@@ -22,30 +22,20 @@
 },
 {
   "model": "filmy.movie",
-  "pk": 3,
-  "fields": {
-    "name": "The Notebook",
-    "year": 2004,
-    "footage": 121,
-    "main_picture": "",
-    "description": "An elderly man reads to a woman with dementia the story of two young lovers whose romance is threatened by the difference in their respective social classes.",
-    "director": null,
-    "actors": [],
-    "genres": []
-  }
-},
-{
-  "model": "filmy.movie",
   "pk": 4,
   "fields": {
     "name": "Interstellar",
     "year": 2014,
     "footage": 169,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/posters/158/991/158991266_d70928.jpg",
     "description": "Set in a dystopian future where humanity is embroiled in a catastrophic blight and famine, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for humankind.",
     "director": 1,
     "actors": [],
-    "genres": []
+    "genres": [
+      1,
+      6,
+      7
+    ]
   }
 },
 {
@@ -55,11 +45,14 @@
     "name": "Truman Show",
     "year": 1998,
     "footage": 163,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/posters/158/988/158988851_fc9f76.jpg",
     "description": "Selected from birth and officially adopted by a television studio following an unwanted pregnancy, Truman Burbank is the unsuspecting star of The Truman Show, a reality television program filmed 24/7 through approximately five thousand hidden cameras and broadcast worldwide.",
-    "director": null,
+    "director": 4,
     "actors": [],
-    "genres": []
+    "genres": [
+      2,
+      6
+    ]
   }
 },
 {
@@ -69,9 +62,9 @@
     "name": "Black Swan",
     "year": 2010,
     "footage": 168,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w663/files/images/film/posters/000/316/316125_2zeq9e.jpg",
     "description": "The movie follows the story of Nina (Portman), a ballerina in a New York City ballet company whose life, like all those in her profession, is completely consumed with dance.",
-    "director": null,
+    "director": 3,
     "actors": [
       4
     ],
@@ -89,9 +82,9 @@
     "name": "Before Sunrise",
     "year": 1995,
     "footage": 165,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/posters/159/611/159611430_d66a73.jpg",
     "description": "The story begins with Jesse (Ethan Hawke), an American traveling through Europe, and Celine (Julie Delpy), a French student on her way back to Paris. Their fateful encounter occurs on a train, and what starts as a casual conversation swiftly evolves into a compelling exploration of life, love, and human connection.",
-    "director": null,
+    "director": 5,
     "actors": [
       5,
       6
@@ -108,9 +101,9 @@
     "name": "Call Me by Your Name",
     "year": 2017,
     "footage": 130,
-    "main_picture": "",
-    "description": "Set in 1983 in northern Italy, Call Me by Your Name chronicles the romantic relationship between a 17-year-old, Elio Perlman (Timothée Chalamet), and Oliver (Armie Hammer), a 24-year-old graduate-student assistant to Elio's father Samuel (Michael Stuhlbarg), an archaeology professor.",
-    "director": null,
+    "main_picture": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/162/392/162392031_c1d90b.jpg",
+    "description": "Set in 1983 in northern Italy, Call Me by Your Name chronicles the romantic relationship between a 17-year-old, Elio Perlman (TimothÃ©e Chalamet), and Oliver (Armie Hammer), a 24-year-old graduate-student assistant to Elio's father Samuel (Michael Stuhlbarg), an archaeology professor.",
+    "director": 7,
     "actors": [
       2
     ],
@@ -126,9 +119,9 @@
     "name": "Split",
     "year": 2017,
     "footage": 117,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/posters/161/436/161436171_d570e2.jpg",
     "description": "The film follows a man with dissociative identity disorder who kidnaps and imprisons three teenage girls in an isolated underground facility.",
-    "director": null,
+    "director": 8,
     "actors": [],
     "genres": [
       4,
@@ -143,11 +136,16 @@
     "name": "Good Will Hunting",
     "year": 1997,
     "footage": 126,
-    "main_picture": "",
+    "main_picture": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/162/482/162482017_563b37.jpg",
     "description": "In GOOD WILL HUNTING, Will (Matt Damon), who grew up as an abused foster child in tough South Boston, works as a janitor at MIT. When he solves complicated math problems that stumped the students, a professor searches for him, only to find that he's in jail for hitting a policeman.",
-    "director": null,
-    "actors": [],
-    "genres": []
+    "director": 7,
+    "actors": [
+      7
+    ],
+    "genres": [
+      5,
+      7
+    ]
   }
 },
 {
@@ -157,13 +155,16 @@
     "name": "Dead Poets Society",
     "year": 1989,
     "footage": 128,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/posters/162/505/162505166_058b6b.jpg",
     "description": "Dead Poets Society is a 1989 American coming-of-age drama film directed by Peter Weir and written by Tom Schulman. The film, starring Robin Williams, is set in 1959 at the fictional elite boarding school, Welton Academy, and tells the story of an English teacher who inspires his students through his teaching of poetry.",
-    "director": null,
+    "director": 4,
     "actors": [
       7
     ],
-    "genres": []
+    "genres": [
+      2,
+      7
+    ]
   }
 },
 {
@@ -173,11 +174,10 @@
     "name": "The Great Gatsby",
     "year": 2013,
     "footage": 143,
-    "main_picture": "",
+    "main_picture": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/157/896/157896991_b480cc.jpg",
     "description": "Synopsis Midwest native Nick Carraway (Tobey Maguire) arrives in 1922 New York in search of the American dream. Nick, a would-be writer, moves in next-door to millionaire Jay Gatsby (Leonardo DiCaprio) and across the bay from his cousin Daisy (Carey Mulligan) and her philandering husband, Tom (Joel Edgerton).",
-    "director": 4,
+    "director": 2,
     "actors": [
-      1,
       6,
       8
     ],

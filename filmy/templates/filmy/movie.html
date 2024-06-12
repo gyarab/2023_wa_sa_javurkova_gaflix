@@ -1,0 +1,18 @@
+{% extends 'filmy/base.html' %}
+
+{% block 'title' %} {{ movie.name }} {% endblock %} 
+
+{% block 'content' %}
+
+    <h1>{{ movie.name }}</h1>
+    <p>{{ movie.description }}</p>
+    <br>
+    <p><strong>Rok vydání:</strong> {{ movie.year }}</p>
+    <p><strong>Žánr:</strong> {{ movie.genres.all|join:", " }}</p>
+    <p><strong>Délka:</strong> {{ movie.footage }} minut</p>
+    <p><strong>Režie:</strong> <a href="{% url 'director' movie.director.id %}">{{ movie.director }}</a></p>
+    <p><strong>Hrají:</strong> {% for actor in movie.actors.all %}<a href="{% url 'actor' actor.id %}">{{ actor }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}</p>
+
+    <a href="{% url 'movies' %}" class="btn btn-primary" hre>Zpět</a>
+
+{% endblock %}

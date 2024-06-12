@@ -19,7 +19,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav me-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
@@ -29,7 +29,19 @@
             <li class="nav-item">
             <a class="nav-link" aria-current="page" href="{% url 'movies' %}">Filmy</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="{% url 'actors' %}">Herci</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="{% url 'directors' %}">Režie</a>
+            </li>
           </ul>
+          {% if search %}
+            <form class="d-flex" method="GET" action="./">
+              <input class="form-control me-2" type="search" name="query" placeholder="Hledám..." aria-label="Search" value="{{ query }}">
+              <button class="btn btn-outline-light" type="submit">Hledat</button>
+            </form>
+          {% endif %}
         </div>
       </div>
     </nav>

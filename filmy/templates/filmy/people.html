@@ -1,0 +1,30 @@
+{% extends 'filmy/base.html' %}
+
+{% block 'title' %} Lidi - {{ block.super }} {% endblock %}
+
+{% block 'content' %}
+
+    {% if actors %}
+        <h1>Herci</h1>
+        {% else %}
+        <h1>Režiséři</h1>
+    {% endif %}
+
+    <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2">
+        {% for person in people %}
+            <div class="col">
+                <div class="card h-100">
+                    <img class="card-img-top" src="{% if person.main_picture %}{{ person.main_picture }}{% else %}https://placehold.co/200x280{% endif %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ person.name }}</h5>
+                        <p class="card-text ">{{ person.description|truncatewords_html:10 }}</p>
+                    </div>
+                    <div class="card-footer text-end">
+                        <a href="{% if actors %}{% url 'actor' person.id %}{% else %}{% url 'director' person.id %}{% endif %}" class="btn btn-primary">Detaily</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+{% endblock %}

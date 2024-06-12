@@ -5,7 +5,7 @@
   "fields": {
     "name": "Christopher Nolan",
     "birth_year": 1970,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/photos/168/724/168724494_2hd73w.jpg",
     "description": "Christopher Nolan is a British film director and writer acclaimed for his noirish visual aesthetic and unconventional, often highly conceptual narratives. His notable films include Inception (2010), Interstellar (2014), Dunkirk (2017), and several Batman movies."
   }
 },
@@ -15,7 +15,7 @@
   "fields": {
     "name": "Richard Linklater",
     "birth_year": 1960,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w100h132crop/files/images/creator/photos/000/270/270013_04e604.jpg",
     "description": "Richard Stuart Linklater (/ˈlɪŋkleɪtər/; born July 30, 1960) is an American film director, producer, and screenwriter. He is known for making films that deal thematically with suburban culture and the effects of the passage of time."
   }
 },
@@ -25,7 +25,7 @@
   "fields": {
     "name": "Darren Aronofsky",
     "birth_year": 1969,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/photos/163/190/163190474_01414b.jpg",
     "description": "Darren Aronofsky (born February 12, 1969) is an American filmmaker. His films are noted for their surreal, melodramatic, and often disturbing elements, frequently in the form of psychological fiction."
   }
 },
@@ -35,7 +35,7 @@
   "fields": {
     "name": "Peter Weir",
     "birth_year": 1944,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w468/files/images/film/photos/158/618/158618072_77840f.jpg",
     "description": "Peter Weir is an Australian film director and screenwriter known for intelligent emotional dramas that frequently explore the relationship between characters and their social environment."
   }
 },
@@ -45,7 +45,7 @@
   "fields": {
     "name": "Joe Wright",
     "birth_year": 1972,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/photos/159/967/159967770_a54502.jpg",
     "description": "Joe Wright is an English film director. He is best known for Pride & Prejudice (2005), Atonement (2007), Anna Karenina (2012), and Darkest Hour (2017). Wright always had an interest in the arts, especially painting."
   }
 },
@@ -55,7 +55,7 @@
   "fields": {
     "name": "Luca Guadagnino",
     "birth_year": 1971,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/photos/160/686/160686811_61b077.jpg",
     "description": "Luca Guadagnino (Italian: [ˈluːka ɡwadaɲˈɲiːno]) is an Italian film director and producer. His films are characterized by their emotional complexity, eroticism, and sumptuous visuals."
   }
 },
@@ -65,18 +65,8 @@
   "fields": {
     "name": "Nick Cassavetes",
     "birth_year": 1959,
-    "main_picture": "",
+    "main_picture": "//image.pmgstatic.com/cache/resized/w360/files/images/film/photos/161/971/161971990_e032bb.jpg",
     "description": "Nicholas David Rowland Cassavetes (born May 21, 1959) is an American actor, director, and writer. He has directed such films as She's So Lovely (1997), John Q. (2002), The Notebook (2004), Alpha Dog (2006), and My Sister's Keeper (2009)."
-  }
-},
-{
-  "model": "filmy.director",
-  "pk": 9,
-  "fields": {
-    "name": "Greta Gerwig",
-    "birth_year": 1983,
-    "main_picture": "",
-    "description": "Recent News. Greta Gerwig is an American actress, writer, and director who became known for the radiant artlessness of her performances in small independent movies before embarking on a successful career as a filmmaker."
   }
 }
 ]

@@ -1,0 +1,15 @@
+{% extends 'filmy/base.html' %}
+
+{% block 'title' %} {{ person.name }} {% endblock %} 
+
+{% block 'content' %}
+
+    <h1>{{ person.name }}</h1>
+    <p>{{ person.description }}</p>
+    <br>
+    <p><strong>Datum narození:</strong> {{person.birth_year}}</p>
+    <p><strong>Filmy:</strong> {% for movie in movies %}<a href="{% url 'movie' movie.id %}">{{ movie.name }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}</p>
+
+    <a href="{% if actor %}{% url 'actors' %}{% else %}{% url 'directors' %}{% endif %}" class="btn btn-primary" hre>Zpět</a>
+
+{% endblock %}
